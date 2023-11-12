@@ -1,5 +1,7 @@
 from flask import jsonify
 from flask_restful import Resource
+from app import api
+
 
 class PredictionResource(Resource):
     def get(self):
